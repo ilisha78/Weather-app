@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(https://img.freepik.com/free-vector/background-gradient-green-tones_23-2148382072.jpg?w=2000);
+}
+.srch{
+    padding: 50px;
+}
+#inp{
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-transform: capitalize;
+}
+.btn{
+    border-radius: 40%;
+    padding: 7px;
+}
