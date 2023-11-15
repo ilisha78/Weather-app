@@ -1,42 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="wheater.css">
-</head>
-<body>
-    <div class="conatiner">
-        <div class="srch">
-            <input type="text" id="inp" placeholder="search" spellcheck="false" onkeyup="( chechWheater(searchInput.value))">
-            <button class="btn">&#128269</button>
-        </div>
-        <div class="img">
-            <img src="https://static.vecteezy.com/system/resources/thumbnails/009/304/897/small/sun-icon-set-clipart-design-illustration-free-png.png" alt="">
-        </div>
-        <div class="txt">
-            <!-- <img src="https://w7.pngwing.com/pngs/49/967/png-transparent-rain-rain-blue-cloud-drop-thumbnail.png" alt="" class="wticon"> -->
-            <h1 class="temp2">37°C</h1>
-            <h2 class="city">Lucknow</h2>
-        </div>
-        <div class="details">
-            <div class="col">
-                <div>
-                    <p class="hmd">50%</p>
-                    <p>Humidity</p>
-                </div>
+    <link rel="stylesheet" href="wheater.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="srch">
+        <input
+          type="text"
+          id="inp"
+          placeholder="search"
+          spellcheck="false"
+          onkeyup="( chechWheater(searchInput.value))"
+        />
+        <!-- <button class="btn">&#128269</button> -->
+    </div>
+    <img
+        src="https://static.vecteezy.com/system/resources/thumbnails/009/304/897/small/sun-icon-set-clipart-design-illustration-free-png.png"
+        alt="This is icon"
+        class="weatherIcon"
+    />
+    <div class="txt">
+        <h1 class="temp2">37°C</h1>
+        <h2 class="city">Lucknow</h2>
+    </div>
+    <div class="details">
+        <div class="col">
+        <img src="https://cdn4.vectorstock.com/i/1000x1000/16/63/humidity-percent-icon-green-vector-22181663.jpg"
+            alt="HumidityImage"
+            class="imgHumidity"
+        />
+            <div>
+            <p class="hmd">50%</p>
+            <p>Humidity</p>
             </div>
-            <div class="col">
-                <!-- <img src="https://www.pngitem.com/pimgs/m/110-1103539_-png-png-download-wind-png-transparent-png.png" alt=""> -->
-                <div>
-                <p class="wind">15km/h</p>
-                <p>Wind Speed</p>
-            </div>
+        </div>
+        <div class="col">
+        <img
+            src="https://images.assetsdelivery.com/compings_v2/mamanamsai/mamanamsai1502/mamanamsai150200599.jpg"
+            alt="Wind image"
+            class="imgWind"
+        />
+            <div>
+            <p class="wind">15km/h</p>
+            <p>Wind Speed</p>
             </div>
         </div>
     </div>
+    </div>
 
     <script src="wheater.js"></script>
-</body>
+  </body>
 </html>
